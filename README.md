@@ -1,5 +1,10 @@
 # Airflow Scheduler Failover Controller
 
+## This Project is forked from teamclairvoyant
+
+Original Project link is https://github.com/teamclairvoyant/airflow-scheduler-failover-controller
+
+
 ## Project Purpose
 
 The purpose of this project is to create a failover controller that will control which scheduler is up and running to allow HA across an Airflow cluster. 
@@ -30,7 +35,7 @@ In case you want to do development work on the project
 
 1. Clone the project from GitHub to your local machine
 
-        git clone https://github.com/teamclairvoyant/airflow-scheduler-failover-controller
+        git clone https://github.com/nsheo/airflow-scheduler-failover-controller
 
 2. Run pip install
 
@@ -51,39 +56,14 @@ In case you want to do development work on the project
     * development
         * code in development branch - pending fixes and features
         * BRANCH
-    * v1.0.0
-        * First release. Support for Airflow <= v1.8.0
-        * RELEASE
-    * v1.0.1
-        * Support for Airflow <= v1.8.0  
-        * RELEASE
-    * v1.0.2
-        * Support for Airflow >= v1.8.1
-        * RELEASE
-    * v1.0.3
-        * Added virtualenv support
-        * RELEASE
-    * v1.0.4
-        * Added Support for Python 3
-        * RELEASE
-    * v1.0.5
-        * Fixed issues with Python 3
-        * RELEASE
-    * v1.0.6
-        * Added feature to poll the health URL to ensure the Scheduler is Healthy
-        * RELEASE
-    * v1.0.7
-        * Disable SSL Verify for Airflow API Request
-        * RELEASE
-    * v1.0.8
-        * Exit code fix when SSHing onto another node
-        * Increase default polling frequency from 10 to 60 seconds
-        * Add support for conifguring SCHEDULER_RESTART_SLEEP_TIME (default: 35 seconds
+    * v1.0.9
+        * Fix SQL_ALCHEMY_CONN path to database from core
+        * Airflow 2.3.x changed this configuration located
         * RELEASE
 
 2. Run pip install
 
-        pip install git+git://github.com/teamclairvoyant/airflow-scheduler-failover-controller.git@{BRANCH_OR_TAG}
+        pip install git+https://github.com/nsheo/airflow-scheduler-failover-controller.git@{BRANCH_OR_TAG}
 
 ## CLI Interface
 
