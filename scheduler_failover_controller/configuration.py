@@ -118,7 +118,7 @@ class Configuration:
         return logging_dir + logging_file_name if logging_dir is not None and logging_file_name is not None else None
 
     def get_sql_alchemy_conn(self):
-        return self.get_config("core", "SQL_ALCHEMY_CONN")
+        return self.get_config("database", "SQL_ALCHEMY_CONN")
 
     def get_metadata_type(self):
         return self.get_scheduler_failover_config("METADATA_SERVICE_TYPE", DEFAULT_METADATA_SERVICE_TYPE)
