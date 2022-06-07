@@ -9,9 +9,9 @@ This directory contains scripts to help you deploy the systemd service scripts q
 
     * Here are some wget commands you can run to get the scripts on the machine.
     
-        wget https://raw.githubusercontent.com/teamclairvoyant/airflow-scheduler-failover-controller/master/scripts/systemd/deploy/setup_airflow_systemd_scripts.sh
+        wget https://raw.githubusercontent.com/nsheo/airflow-scheduler-failover-controller/master/scripts/systemd/deploy/setup_airflow_systemd_scripts.sh
         
-        wget https://raw.githubusercontent.com/teamclairvoyant/airflow-scheduler-failover-controller/master/scripts/systemd/deploy/setup_scheduler_failover_controller_systemd_scripts.sh
+        wget https://raw.githubusercontent.com/nsheo/airflow-scheduler-failover-controller/master/scripts/systemd/deploy/setup_scheduler_failover_controller_systemd_scripts.sh
 
 2. Update the scripts with the version of Airflow and the Airflow Scheduler Failover Controller you're using as well as the user and group you would like the job to be running as.
 

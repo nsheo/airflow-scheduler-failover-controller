@@ -19,6 +19,6 @@ setup(
     extras_require={},
     author='Robert Sanders',
     author_email='robert.sanders@clairvoyantsoft.com',
-    url='https://github.com/teamclairvoyant/airflow-scheduler-failover-controller',
-    download_url=('https://github.com/teamclairvoyant/airflow-scheduler-failover-controller/tarball/' + __version__)
+    url='https://github.com/nsheo/airflow-scheduler-failover-controller',
+    download_url=('https://github.com/nsheo/airflow-scheduler-failover-controller/tarball/' + __version__)
 )
